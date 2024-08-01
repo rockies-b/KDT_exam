@@ -1,20 +1,27 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-void main()
+int main()
 {
 
-	int a, b, c, d;
-
-	a = 100 + 100;
-	b = a + 100;
-	c = a + b - 100;
-	d = a + b + c;
-	printf("a, b, c, d 의 값 ==> %,d, %d, %d, %d \n", a, b, c, d);
-
-	a = b = c = d = 100;
-	printf("a, b, c, d 의 값 ==> %,d, %d, %d, %d \n", a, b, c, d);
-
-	a = 100;
-	a = a + 200;
-	printf("a 의 값==> %d \n", a);
+	while (1) {
+		int a;
+		printf("점수를 입력하세요 :");
+		scanf("%d", &a);
+		if (a > 100 || a < 0)
+		{
+			printf("학점 부여를 종료합니다.");
+			break;
+		}
+		if (a >= 90)
+			printf("A학점 입니다.");
+		else if (a >= 80)
+			printf("B학점 입니다.");
+		else if (a >= 70)
+			printf("C학점 입니다.");
+		else if (a >= 60)
+			printf("C학점 입니다.");
+		else
+			printf("D학점 입니다.");
+	}
 }
