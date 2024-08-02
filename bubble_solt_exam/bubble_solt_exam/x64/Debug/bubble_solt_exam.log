@@ -1,0 +1,3 @@
+﻿  버블정령.cpp
+C:\1.Lecture\23_KDT_ICN\C_Prog_Lyo\bubble_solt_exam\버블정령.cpp(3,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  bubble_solt_exam.vcxproj -> C:\1.Lecture\23_KDT_ICN\C_Prog_Lyo\bubble_solt_exam\x64\Debug\bubble_solt_exam.exe
