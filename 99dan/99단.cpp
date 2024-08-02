@@ -10,11 +10,11 @@ int main()
 		printf("구구단을 외자!\n구구단을 외자!\n몇단?");
 		scanf("%d", &dan);
 		if (dan == 0) {
-			printf("0단은 다메다요");
+			printf("0단은 안돼요!");
 			break;
 		}
-		for (i = 1; i < 20; i++) {
-			if (dan >= 20 || dan <= 0) {
+		for (i = 1; i < 10; i++) {
+			if (dan >= 10 || dan <= 0) {
 				printf("단수가 너무 큽니다.");
 				break;
 			}
@@ -22,5 +22,5 @@ int main()
 			printf("%d X %d = %d\n", dan, i, dan * i);
 		}
 	}
-	
+
 }
